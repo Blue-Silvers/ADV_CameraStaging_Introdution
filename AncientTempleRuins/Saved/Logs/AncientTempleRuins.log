@@ -2574,3 +2574,1067 @@ Make sure 'bp_ThirdPersonCharacter_SF' has been compiled for  Reset Orientation 
 [2024.11.06-08.47.29:461][492]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
 [2024.11.06-08.49.53:212][ 60]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
 [2024.11.06-08.49.53:212][ 60]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: ================================================
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Total job queries 584, among them cache hits 75 (12.84%), DDC hits 13 (2.23%), Duplicates 20 (3.42%)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Tracking 489 distinct input hashes that result in 380 distinct outputs (77.71%)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: RAM used: 10.43 MiB of 1.60 GiB budget. Usage: 0.64%
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Shaders Compiled: 476
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Jobs assigned 476, completed 476 (100%)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Average time worker was idle: 3.23 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Time job spent in pending queue: average 31.14 s, longest 92.81 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Job execution time: average 2.53 s, max 13.23 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Job life time (pending + execution): average 33.67 s, max 94.40
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Shader code size: average 38.622 KiB, min 4.516 KiB, max 93.395 KiB
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 125.91 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.93%
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Jobs were issued in 435 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Average processing rate: 3.78 jobs/sec
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Total thread time: 734.891 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Total thread preprocess time: 10.429 s
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Percentage time preprocessing: 1.42%
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Effective parallelization: 5.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 3.46 sec, max 3.46 sec, min 3.46 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   58 times, average 2.41 sec, max 4.67 sec, min 1.06 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS (compiled    2 times, average 1.89 sec, max 2.15 sec, min 1.63 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    8 times, average 1.87 sec, max 2.96 sec, min 1.28 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   49 times, average 1.78 sec, max 4.36 sec, min 0.39 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 19.05% of total time (compiled   58 times, average 2.41 sec, max 4.67 sec, min 1.06 sec)
+[2024.11.06-08.52.38:283][ 11]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.86% of total time (compiled   49 times, average 1.78 sec, max 4.36 sec, min 0.39 sec)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.90% of total time (compiled   63 times, average 1.16 sec, max 3.13 sec, min 0.23 sec)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.91% of total time (compiled   45 times, average 1.29 sec, max 3.80 sec, min 0.26 sec)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.66% of total time (compiled   40 times, average 1.04 sec, max 3.56 sec, min 0.19 sec)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: === Material stats ===
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Materials Translated:    205
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Material Total Translate Time: 1.09 s
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Material Translation Only: 0.54 s (50%)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: Material Cache Hits: 19 (9%)
+[2024.11.06-08.52.38:284][ 11]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.01.29:061][879]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.01.29:061][879]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Total job queries 594, among them cache hits 75 (12.63%), DDC hits 13 (2.19%), Duplicates 20 (3.37%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Tracking 499 distinct input hashes that result in 384 distinct outputs (76.95%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: RAM used: 10.58 MiB of 1.60 GiB budget. Usage: 0.65%
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Shaders Compiled: 486
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Jobs assigned 486, completed 486 (100%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Average time worker was idle: 34.59 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Time job spent in pending queue: average 30.50 s, longest 92.81 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Job execution time: average 2.62 s, max 13.23 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Job life time (pending + execution): average 33.12 s, max 94.40
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Shader code size: average 38.882 KiB, min 4.516 KiB, max 93.395 KiB
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 138.32 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.92%
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Jobs were issued in 445 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Average processing rate: 3.51 jobs/sec
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Total thread time: 739.416 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Total thread preprocess time: 10.561 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Percentage time preprocessing: 1.43%
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Effective parallelization: 5.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 3.46 sec, max 3.46 sec, min 3.46 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   60 times, average 2.35 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    8 times, average 1.87 sec, max 2.96 sec, min 1.28 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   50 times, average 1.75 sec, max 4.36 sec, min 0.39 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   18 times, average 1.64 sec, max 2.98 sec, min 0.80 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 19.07% of total time (compiled   60 times, average 2.35 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.84% of total time (compiled   50 times, average 1.75 sec, max 4.36 sec, min 0.39 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.98% of total time (compiled   66 times, average 1.12 sec, max 3.13 sec, min 0.23 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.86% of total time (compiled   45 times, average 1.29 sec, max 3.80 sec, min 0.26 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.62% of total time (compiled   40 times, average 1.04 sec, max 3.56 sec, min 0.19 sec)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: === Material stats ===
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Materials Translated:    205
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Material Total Translate Time: 1.09 s
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Material Translation Only: 0.54 s (50%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: Material Cache Hits: 19 (9%)
+[2024.11.06-09.01.38:455][111]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Total job queries 603, among them cache hits 79 (13.10%), DDC hits 13 (2.16%), Duplicates 20 (3.32%)
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Tracking 504 distinct input hashes that result in 389 distinct outputs (77.18%)
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: RAM used: 10.70 MiB of 1.60 GiB budget. Usage: 0.65%
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Shaders Compiled: 491
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Jobs assigned 491, completed 491 (100%)
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Average time worker was idle: 34.37 s
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Time job spent in pending queue: average 30.19 s, longest 92.81 s
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Job execution time: average 2.60 s, max 13.23 s
+[2024.11.06-09.04.38:477][401]LogShaderCompilers: Display: Job life time (pending + execution): average 32.79 s, max 94.40
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Shader code size: average 38.78 KiB, min 4.516 KiB, max 93.395 KiB
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 138.98 s
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.91%
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Jobs were issued in 450 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Average processing rate: 3.53 jobs/sec
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Total thread time: 741.041 s
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Total thread preprocess time: 10.668 s
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Percentage time preprocessing: 1.44%
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Effective parallelization: 5.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 3.46 sec, max 3.46 sec, min 3.46 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   60 times, average 2.35 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    8 times, average 1.87 sec, max 2.96 sec, min 1.28 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   51 times, average 1.72 sec, max 4.36 sec, min 0.38 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   19 times, average 1.57 sec, max 2.98 sec, min 0.29 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 19.03% of total time (compiled   60 times, average 2.35 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.87% of total time (compiled   51 times, average 1.72 sec, max 4.36 sec, min 0.38 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.99% of total time (compiled   67 times, average 1.10 sec, max 3.13 sec, min 0.23 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.84% of total time (compiled   45 times, average 1.29 sec, max 3.80 sec, min 0.26 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.61% of total time (compiled   40 times, average 1.04 sec, max 3.56 sec, min 0.19 sec)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: === Material stats ===
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Materials Translated:    205
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Material Total Translate Time: 1.09 s
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Material Translation Only: 0.54 s (50%)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: Material Cache Hits: 19 (9%)
+[2024.11.06-09.04.38:478][401]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.05.50:523][769]Cmd: TRANSACTION UNDO
+[2024.11.06-09.05.50:523][769]LogEditorTransaction: Undo Move Elements
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Total job queries 615, among them cache hits 79 (12.85%), DDC hits 13 (2.11%), Duplicates 20 (3.25%)
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Tracking 516 distinct input hashes that result in 395 distinct outputs (76.55%)
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: RAM used: 10.91 MiB of 1.60 GiB budget. Usage: 0.67%
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Shaders Compiled: 503
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Jobs assigned 503, completed 503 (100%)
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Average time worker was idle: 37.31 s
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Time job spent in pending queue: average 29.47 s, longest 92.81 s
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Job execution time: average 2.73 s, max 13.23 s
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Job life time (pending + execution): average 32.20 s, max 94.40
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Shader code size: average 38.926 KiB, min 4.516 KiB, max 93.395 KiB
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 151.82 s
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.90%
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Jobs were issued in 462 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Average processing rate: 3.31 jobs/sec
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Total thread time: 746.593 s
+[2024.11.06-09.07.38:482][832]LogShaderCompilers: Display: Total thread preprocess time: 10.796 s
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Percentage time preprocessing: 1.45%
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Effective parallelization: 4.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 3.46 sec, max 3.46 sec, min 3.46 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   61 times, average 2.32 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    8 times, average 1.87 sec, max 2.96 sec, min 1.28 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   53 times, average 1.68 sec, max 4.36 sec, min 0.38 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   19 times, average 1.57 sec, max 2.98 sec, min 0.29 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.98% of total time (compiled   61 times, average 2.32 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.94% of total time (compiled   53 times, average 1.68 sec, max 4.36 sec, min 0.38 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.08% of total time (compiled   70 times, average 1.08 sec, max 3.13 sec, min 0.23 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.97% of total time (compiled   48 times, average 1.24 sec, max 3.80 sec, min 0.26 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.70% of total time (compiled   43 times, average 0.99 sec, max 3.56 sec, min 0.19 sec)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: === Material stats ===
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Materials Translated:    205
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Material Total Translate Time: 1.09 s
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Material Translation Only: 0.54 s (50%)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: Material Cache Hits: 19 (9%)
+[2024.11.06-09.07.38:483][832]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.17.37:641][798]LogSkeletalMesh: Building Skeletal Mesh SK_Chest_Box...
+[2024.11.06-09.17.37:688][798]LogSkeletalMeshReduction: Reducing skeletal mesh for LOD 0 
+[2024.11.06-09.17.37:717][798]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box.SK_Chest_Box
+[2024.11.06-09.17.37:824][798]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box_Skeleton.SK_Chest_Box_Skeleton
+[2024.11.06-09.17.37:824][798]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box_Skeleton.SK_Chest_Box_Skeleton
+[2024.11.06-09.17.37:839][798]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box.SK_Chest_Box as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_0
+[2024.11.06-09.17.37:976][798]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box.SK_Chest_Box as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_0
+[2024.11.06-09.17.39:081][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2024.11.06-09.17.39:085][816]LogEditorActor: Deleted 0 Actors (0.064 secs)
+[2024.11.06-09.17.39:115][816]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box_Skeleton.SK_Chest_Box_Skeleton
+[2024.11.06-09.17.39:115][816]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box_Skeleton.SK_Chest_Box_Skeleton
+[2024.11.06-09.17.39:126][816]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box.SK_Chest_Box as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_1
+[2024.11.06-09.17.39:130][816]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_Platformer1/Skeletal_Meshes/SK_Chest_Box.SK_Chest_Box as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_1
+[2024.11.06-09.17.40:263][832]Cmd: DELETE
+[2024.11.06-09.17.40:263][832]Cmd: ACTOR DELETE
+[2024.11.06-09.17.40:739][832]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2024.11.06-09.17.40:747][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.11.06-09.17.40:748][832]LogEditorActor: Deleted 1 Actors (0.151 secs)
+[2024.11.06-09.17.50:159][983]LogSkeletalMesh: Building Skeletal Mesh SK_Frank_Mage_Mannequin...
+[2024.11.06-09.17.50:321][988]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin
+[2024.11.06-09.17.50:321][988]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin
+[2024.11.06-09.17.50:326][988]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_2
+[2024.11.06-09.17.50:348][988]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Frank_Mage_Mannequin) ...
+[2024.11.06-09.17.50:496][988]LogSkeletalMesh: Built Skeletal Mesh [0.34s] /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin
+[2024.11.06-09.17.50:507][988]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_2
+[2024.11.06-09.17.52:053][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.06-09.17.52:054][ 13]LogEditorActor: Deleted 0 Actors (0.010 secs)
+[2024.11.06-09.17.52:076][ 13]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin
+[2024.11.06-09.17.52:076][ 13]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin
+[2024.11.06-09.17.52:082][ 13]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_3
+[2024.11.06-09.17.52:088][ 13]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Frank_Pack/Frank_RPG_Mage/Skeletal_Meshes/SK_Frank_Mage_Mannequin.SK_Frank_Mage_Mannequin as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_3
+[2024.11.06-09.19.38:723][268]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Total job queries 657, among them cache hits 101 (15.37%), DDC hits 13 (1.98%), Duplicates 21 (3.20%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Tracking 535 distinct input hashes that result in 410 distinct outputs (76.64%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: RAM used: 11.24 MiB of 1.60 GiB budget. Usage: 0.69%
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Shaders Compiled: 522
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Jobs assigned 522, completed 522 (100%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Average time worker was idle: 46.61 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Time job spent in pending queue: average 28.40 s, longest 92.81 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Job execution time: average 2.73 s, max 13.23 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Job life time (pending + execution): average 31.13 s, max 94.40
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Shader code size: average 38.762 KiB, min 4.516 KiB, max 93.395 KiB
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 165.60 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.88%
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Jobs were issued in 481 batches (only local compilation was used), average 1.09 jobs/batch
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Average processing rate: 3.15 jobs/sec
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Total thread time: 755.53 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Total thread preprocess time: 11.299 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Percentage time preprocessing: 1.50%
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Effective parallelization: 4.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 3.46 sec, max 3.46 sec, min 3.46 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   64 times, average 2.24 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    8 times, average 1.87 sec, max 2.96 sec, min 1.28 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                                  FVelocityPS (compiled   19 times, average 1.57 sec, max 2.98 sec, min 0.29 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                                  FVelocityVS (compiled   19 times, average 1.54 sec, max 2.57 sec, min 0.23 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.99% of total time (compiled   64 times, average 2.24 sec, max 4.67 sec, min 0.46 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.39% of total time (compiled   61 times, average 1.54 sec, max 4.36 sec, min 0.38 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.08% of total time (compiled   73 times, average 1.04 sec, max 3.13 sec, min 0.23 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.03% of total time (compiled   51 times, average 1.19 sec, max 3.80 sec, min 0.26 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.63% of total time (compiled   43 times, average 0.99 sec, max 3.56 sec, min 0.19 sec)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: === Material stats ===
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Materials Translated:    209
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Material Total Translate Time: 1.09 s
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Material Translation Only: 0.54 s (50%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: Material Cache Hits: 19 (9%)
+[2024.11.06-09.19.38:724][268]LogShaderCompilers: Display: ================================================
+[2024.11.06-09.20.18:368][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.06-09.20.18:644][681]LogWorldPartition: Can't find class descriptor '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C' for saving '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C'
+[2024.11.06-09.20.18:645][681]LogWorldPartition: Can't find class descriptor '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C' for saving '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C'
+[2024.11.06-09.20.18:729][681]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P_Auto1
+[2024.11.06-09.20.18:729][681]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/AncientTemple_01_P_Auto10A480A804FBF2AF4FFFF6ABC763567BA.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P_Auto1.umap'
+[2024.11.06-09.20.18:748][681]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P_Auto1.umap is in the /Temp path, will not scan.
+[2024.11.06-09.20.18:777][681]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P_Auto1 is in the /Temp path, will not scan.
+[2024.11.06-09.20.18:777][681]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P_Auto1 is in the /Temp path, will not scan.
+[2024.11.06-09.20.18:780][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P' took 0.419
+[2024.11.06-09.20.18:780][681]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.419
+[2024.11.06-09.28.08:989][ 93]LogDerivedDataCache: C:/Users/julie.danko/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.11.06-09.38.11:306][899]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.38.11:306][899]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.38.17:693][ 57]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.11.06-09.38.17:723][ 57]LogContentBrowser: Creating deferred item: NewFolder
+[2024.11.06-09.38.17:747][ 58]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.11.06-09.38.22:401][183]LogContentBrowser: Attempting asset rename: NewFolder -> Ju
+[2024.11.06-09.38.22:402][183]LogContentBrowser: End creating deferred item NewFolder
+[2024.11.06-09.38.26:494][291]LogContentBrowser: Attempting asset rename: Ju -> import
+[2024.11.06-09.38.40:359][455]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\julie.danko\Downloads\medieval-knight-sculpture-game-ready/source/Dwarf Idle.fbx)
+[2024.11.06-09.38.40:490][455]LogFbx: Loading FBX Scene from C:\Users\julie.danko\Downloads\medieval-knight-sculpture-game-ready/source/Dwarf Idle.fbx
+[2024.11.06-09.38.40:570][455]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.06-09.38.49:407][455]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.06-09.38.49:546][455]LogFbx: Valid bind pose for Pose (BindPose) - under_low
+[2024.11.06-09.38.49:609][455]LogMaterial: Display: Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn2.blinn2 needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.06-09.38.49:902][455]LogFbx: Triangulating skeletal mesh under_low
+[2024.11.06-09.38.49:924][455]LogFbx: Triangulating skeletal mesh cheville_low
+[2024.11.06-09.38.49:935][455]LogFbx: Triangulating skeletal mesh feet_low
+[2024.11.06-09.38.49:951][455]LogFbx: Triangulating skeletal mesh up_low
+[2024.11.06-09.38.49:963][455]LogMaterial: Display: Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn1.blinn1 needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.06-09.38.50:225][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3A800 with pending SubmitJob call.
+[2024.11.06-09.38.50:228][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3C000 with pending SubmitJob call.
+[2024.11.06-09.38.50:228][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A35800 with pending SubmitJob call.
+[2024.11.06-09.38.50:228][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3C800 with pending SubmitJob call.
+[2024.11.06-09.38.50:229][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A37000 with pending SubmitJob call.
+[2024.11.06-09.38.50:229][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A33800 with pending SubmitJob call.
+[2024.11.06-09.38.50:230][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3D000 with pending SubmitJob call.
+[2024.11.06-09.38.50:233][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3B800 with pending SubmitJob call.
+[2024.11.06-09.38.50:235][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A3D800 with pending SubmitJob call.
+[2024.11.06-09.38.50:235][455]LogShaderCompilers: Display: Cancelled job 0x000005482324B800 with pending SubmitJob call.
+[2024.11.06-09.38.50:236][455]LogShaderCompilers: Display: Cancelled job 0x0000053758A39800 with pending SubmitJob call.
+[2024.11.06-09.38.50:237][455]LogShaderCompilers: Display: Cancelled job 0x000005482324D000 with pending SubmitJob call.
+[2024.11.06-09.38.50:239][455]LogShaderCompilers: Display: Cancelled job 0x000005482324C000 with pending SubmitJob call.
+[2024.11.06-09.38.50:243][455]LogShaderCompilers: Display: Cancelled job 0x000005482324C800 with pending SubmitJob call.
+[2024.11.06-09.38.50:373][455]LogFbx: Triangulating skeletal mesh leg_low
+[2024.11.06-09.38.50:398][455]LogFbx: Triangulating skeletal mesh knee_low
+[2024.11.06-09.38.50:421][455]LogFbx: Triangulating skeletal mesh wing01_low
+[2024.11.06-09.38.50:433][455]LogFbx: Triangulating skeletal mesh wing02_low
+[2024.11.06-09.38.50:442][455]LogMaterial: Display: Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn3.blinn3 needed to have new flag set bUsedWithSkeletalMesh !
+[2024.11.06-09.38.50:708][455]LogShaderCompilers: Display: Cancelled job 0x00000536E88B6000 with pending SubmitJob call.
+[2024.11.06-09.38.50:710][455]LogShaderCompilers: Display: Cancelled job 0x00000536E88B7000 with pending SubmitJob call.
+[2024.11.06-09.38.50:711][455]LogShaderCompilers: Display: Cancelled job 0x00000536E88B8000 with pending SubmitJob call.
+[2024.11.06-09.38.50:711][455]LogShaderCompilers: Display: Cancelled job 0x0000054024AD6000 with pending SubmitJob call.
+[2024.11.06-09.38.50:711][455]LogShaderCompilers: Display: Cancelled job 0x0000054024AD4000 with pending SubmitJob call.
+[2024.11.06-09.38.50:712][455]LogShaderCompilers: Display: Cancelled job 0x00000536E88B3800 with pending SubmitJob call.
+[2024.11.06-09.38.50:715][455]LogShaderCompilers: Display: Cancelled job 0x00000533ADE2E800 with pending SubmitJob call.
+[2024.11.06-09.38.50:716][455]LogShaderCompilers: Display: Cancelled job 0x00000533ADE2A000 with pending SubmitJob call.
+[2024.11.06-09.38.50:719][455]LogShaderCompilers: Display: Cancelled job 0x0000054024AD4800 with pending SubmitJob call.
+[2024.11.06-09.38.50:858][455]LogFbx: Triangulating skeletal mesh attach_low
+[2024.11.06-09.38.50:866][455]LogFbx: Triangulating skeletal mesh face_low
+[2024.11.06-09.38.50:912][455]LogFbx: Triangulating skeletal mesh Helmet_low
+[2024.11.06-09.38.50:930][455]LogFbx: Triangulating skeletal mesh Jaw_low
+[2024.11.06-09.38.50:983][455]LogFbx: Triangulating skeletal mesh Mohawks_low
+[2024.11.06-09.38.51:000][455]LogFbx: Triangulating skeletal mesh cross_low
+[2024.11.06-09.38.51:011][455]LogFbx: Triangulating skeletal mesh Ears_low
+[2024.11.06-09.38.51:037][455]LogFbx: Triangulating skeletal mesh Forhead_low
+[2024.11.06-09.38.51:077][455]LogFbx: Triangulating skeletal mesh chest_low
+[2024.11.06-09.38.51:101][455]LogFbx: Triangulating skeletal mesh bavet_low
+[2024.11.06-09.38.51:135][455]LogFbx: Triangulating skeletal mesh neck_low
+[2024.11.06-09.38.51:157][455]LogFbx: Triangulating skeletal mesh manche_low
+[2024.11.06-09.38.51:192][455]LogFbx: Triangulating skeletal mesh strap_low
+[2024.11.06-09.38.51:217][455]LogFbx: Triangulating skeletal mesh patch_low
+[2024.11.06-09.38.51:228][455]LogFbx: Triangulating skeletal mesh elbow_low
+[2024.11.06-09.38.51:241][455]LogFbx: Triangulating skeletal mesh chains02_low
+[2024.11.06-09.38.51:249][455]LogFbx: Triangulating skeletal mesh arm_low
+[2024.11.06-09.38.51:269][455]LogFbx: Triangulating skeletal mesh epaulette_low
+[2024.11.06-09.38.51:272][455]LogFbx: Triangulating skeletal mesh shoulder_low
+[2024.11.06-09.38.51:292][455]LogFbx: Triangulating skeletal mesh glove_low
+[2024.11.06-09.38.51:355][455]LogFbx: Triangulating skeletal mesh hand_low
+[2024.11.06-09.38.51:358][455]LogFbx: Triangulating skeletal mesh thumps_low
+[2024.11.06-09.38.51:361][455]LogFbx: Triangulating skeletal mesh fingers_low
+[2024.11.06-09.38.51:371][455]LogFbx: Triangulating skeletal mesh hips_low
+[2024.11.06-09.38.51:375][455]LogFbx: Triangulating skeletal mesh sidepatch_low
+[2024.11.06-09.38.51:394][455]LogFbx: Triangulating skeletal mesh donut_low
+[2024.11.06-09.38.51:407][455]LogFbx: Triangulating skeletal mesh belt_low
+[2024.11.06-09.38.51:412][455]LogFbx: Triangulating skeletal mesh chains_low
+[2024.11.06-09.38.51:416][455]LogFbx: Triangulating skeletal mesh hold_low
+[2024.11.06-09.38.51:418][455]LogFbx: Triangulating skeletal mesh o_low
+[2024.11.06-09.38.51:438][455]LogFbx: Triangulating skeletal mesh short_low
+[2024.11.06-09.38.51:454][455]LogFbx: Triangulating skeletal mesh bouclier_low
+[2024.11.06-09.38.51:458][455]LogFbx: Triangulating skeletal mesh tickle_low
+[2024.11.06-09.38.51:523][455]LogFbx: Triangulating skeletal mesh robe_low
+[2024.11.06-09.38.51:526][455]LogFbx: Triangulating skeletal mesh twist_low
+[2024.11.06-09.38.51:603][455]LogFbx: Triangulating skeletal mesh twist01_low
+[2024.11.06-09.38.51:672][455]LogFbx: Bones digested - 57  Depth of hierarchy - 12
+[2024.11.06-09.38.52:644][455]LogSkeletalMesh: Section 0: Material=0, 15246 triangles
+[2024.11.06-09.38.52:645][455]LogSkeletalMesh: Section 1: Material=1, 12852 triangles
+[2024.11.06-09.38.52:645][455]LogSkeletalMesh: Section 2: Material=2, 13556 triangles
+[2024.11.06-09.38.52:737][455]LogSkeletalMesh: Building Skeletal Mesh Dwarf_Idle...
+[2024.11.06-09.38.52:755][455]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Dwarf_Idle) ...
+[2024.11.06-09.38.53:448][455]LogSkeletalMesh: Built Skeletal Mesh [0.71s] /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle
+[2024.11.06-09.38.55:053][455]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.11.06-09.38.55:053][455]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(0) Hips
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(1) Spine
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(2) Spine1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(3) Spine2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(4) Neck
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(5) Head
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(8) LeftArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(10) LeftHand
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(27) RightShoulder
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(28) RightArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(29) RightForeArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(30) RightHand
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(31) RightHandThumb1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(32) RightHandThumb2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(33) RightHandThumb3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(34) RightHandThumb4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(35) RightHandIndex1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(36) RightHandIndex2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(37) RightHandIndex3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(38) RightHandIndex4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(43) RightHandRing1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(44) RightHandRing2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(45) RightHandRing3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(46) RightHandRing4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(47) LeftUpLeg
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(48) LeftLeg
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(49) LeftFoot
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(50) LeftToeBase
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(51) LeftToe_End
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(52) RightUpLeg
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(53) RightLeg
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(54) RightFoot
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(55) RightToeBase
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(56) RightToe_End
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(0) Hips
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(1) Spine
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(2) Spine1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(3) Spine2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(4) Neck
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(5) Head
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(8) LeftArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(10) LeftHand
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(27) RightShoulder
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(28) RightArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(29) RightForeArm
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(30) RightHand
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(31) RightHandThumb1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(32) RightHandThumb2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(33) RightHandThumb3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(34) RightHandThumb4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(35) RightHandIndex1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(36) RightHandIndex2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(37) RightHandIndex3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(38) RightHandIndex4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(43) RightHandRing1
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(44) RightHandRing2
+[2024.11.06-09.38.56:177][455]LogFbx: SortedLinks :(45) RightHandRing3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(46) RightHandRing4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(47) LeftUpLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(48) LeftLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(49) LeftFoot
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(50) LeftToeBase
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(51) LeftToe_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(52) RightUpLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(53) RightLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(54) RightFoot
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(55) RightToeBase
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(56) RightToe_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(0) Hips
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(1) Spine
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(2) Spine1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(3) Spine2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(4) Neck
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(5) Head
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(8) LeftArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(10) LeftHand
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(27) RightShoulder
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(28) RightArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(29) RightForeArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(30) RightHand
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(31) RightHandThumb1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(32) RightHandThumb2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(33) RightHandThumb3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(34) RightHandThumb4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(35) RightHandIndex1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(36) RightHandIndex2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(37) RightHandIndex3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(38) RightHandIndex4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(43) RightHandRing1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(44) RightHandRing2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(45) RightHandRing3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(46) RightHandRing4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(47) LeftUpLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(48) LeftLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(49) LeftFoot
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(50) LeftToeBase
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(51) LeftToe_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(52) RightUpLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(53) RightLeg
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(54) RightFoot
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(55) RightToeBase
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(56) RightToe_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(0) Hips
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(1) Spine
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(2) Spine1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(3) Spine2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(4) Neck
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(5) Head
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(8) LeftArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(10) LeftHand
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.11.06-09.38.56:178][455]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(27) RightShoulder
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(28) RightArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(29) RightForeArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(30) RightHand
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(31) RightHandThumb1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(32) RightHandThumb2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(33) RightHandThumb3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(34) RightHandThumb4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(35) RightHandIndex1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(36) RightHandIndex2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(37) RightHandIndex3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(38) RightHandIndex4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(43) RightHandRing1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(44) RightHandRing2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(45) RightHandRing3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(46) RightHandRing4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(47) LeftUpLeg
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(48) LeftLeg
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(49) LeftFoot
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(50) LeftToeBase
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(51) LeftToe_End
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(52) RightUpLeg
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(53) RightLeg
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(54) RightFoot
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(55) RightToeBase
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(56) RightToe_End
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(0) Hips
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(1) Spine
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(2) Spine1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(3) Spine2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(4) Neck
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(5) Head
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(7) LeftShoulder
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(8) LeftArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(9) LeftForeArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(10) LeftHand
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(23) LeftHandRing1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(24) LeftHandRing2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(25) LeftHandRing3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(26) LeftHandRing4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(27) RightShoulder
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(28) RightArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(29) RightForeArm
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(30) RightHand
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(31) RightHandThumb1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(32) RightHandThumb2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(33) RightHandThumb3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(34) RightHandThumb4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(35) RightHandIndex1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(36) RightHandIndex2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(37) RightHandIndex3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(38) RightHandIndex4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(43) RightHandRing1
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(44) RightHandRing2
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(45) RightHandRing3
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(46) RightHandRing4
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(47) LeftUpLeg
+[2024.11.06-09.38.56:179][455]LogFbx: SortedLinks :(48) LeftLeg
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(49) LeftFoot
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(50) LeftToeBase
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(51) LeftToe_End
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(52) RightUpLeg
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(53) RightLeg
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(54) RightFoot
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(55) RightToeBase
+[2024.11.06-09.38.56:180][455]LogFbx: SortedLinks :(56) RightToe_End
+[2024.11.06-09.38.56:193][455]LogFbx: Parsing AnimStack feet_low|donut_low|Take 001|BaseLayer
+[2024.11.06-09.38.56:193][455]LogFbx: Parsing AnimStack feet_low|feet_low|Take 001|BaseLayer
+[2024.11.06-09.38.56:193][455]LogFbx: Parsing AnimStack donut_low|donut_low|Take 001|BaseLayer
+[2024.11.06-09.38.56:193][455]LogFbx: Parsing AnimStack donut_low|feet_low|Take 001|BaseLayer
+[2024.11.06-09.38.56:193][455]LogFbx: Parsing AnimStack mixamo.com
+[2024.11.06-09.38.59:654][455]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com (Required Memory Estimate: 2.30 MB)
+[2024.11.06-09.38.59:673][455]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Dwarf_Idle) ...
+[2024.11.06-09.38.59:698][455]LogAnimationCompression: Display: Storing compressed animation data for /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com, at AnimationSequence/d9414d265083f824f2f75a72539891557c7b2324
+[2024.11.06-09.38.59:721][455]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.11.06-09.38.59:722][455]FBXImport: Error: Animation length 0.042 is not compatible with import frame-rate 30 fps (sub frame 0.25), animation has to be frame-border aligned. Either re-export animation or enable snap to closest frame boundary import option. 
+[2024.11.06-09.38.59:722][455]FBXImport: Error: Animation length 0.042 is not compatible with import frame-rate 30 fps (sub frame 0.25), animation has to be frame-border aligned. Either re-export animation or enable snap to closest frame boundary import option. 
+[2024.11.06-09.38.59:722][455]FBXImport: Error: Animation length 0.042 is not compatible with import frame-rate 30 fps (sub frame 0.25), animation has to be frame-border aligned. Either re-export animation or enable snap to closest frame boundary import option. 
+[2024.11.06-09.38.59:722][455]FBXImport: Error: Animation length 0.042 is not compatible with import frame-rate 30 fps (sub frame 0.25), animation has to be frame-border aligned. Either re-export animation or enable snap to closest frame boundary import option. 
+[2024.11.06-09.38.59:896][455]LogInterchangeEngine: [Pending] Importing
+[2024.11.06-09.38.59:896][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID01_Base_color.png]
+[2024.11.06-09.38.59:906][455]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.06-09.38.59:907][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID01_Metallic.png]
+[2024.11.06-09.38.59:907][455]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.06-09.38.59:907][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID01_Mixed_AO.png]
+[2024.11.06-09.38.59:908][455]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.06-09.38.59:908][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID01_Normal_DirectX.png]
+[2024.11.06-09.38.59:908][455]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.11.06-09.38.59:908][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID01_Roughness.png]
+[2024.11.06-09.38.59:909][455]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.38.59:909][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_alpha.png]
+[2024.11.06-09.38.59:910][455]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.11.06-09.38.59:910][455]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_Base_color.png]
+[2024.11.06-09.38.59:910][455]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.11.06-09.38.59:911][455]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.11.06-09.38.59:911][455]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.11.06-09.38.59:912][455]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.11.06-09.38.59:913][455]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.11.06-09.38.59:913][455]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.11.06-09.38.59:915][455]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.11.06-09.38.59:916][455]LogInterchangeEngine: [Pending] Importing -  (15)
+[2024.11.06-09.38.59:916][455]LogInterchangeEngine: [Pending] Importing -  (16)
+[2024.11.06-09.38.59:917][455]LogInterchangeEngine: [Pending] Importing -  (17)
+[2024.11.06-09.39.00:004][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.06-09.39.00:007][455]LogInterchangeEngine: [Pending] Importing -  (17)
+[2024.11.06-09.39.00:048][455]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.06-09.39.00:050][455]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.06-09.39.00:054][455]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.06-09.39.00:075][455]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.00:081][455]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.02:178][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.ID01_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:180][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.ID01_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:197][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.ID01_Mixed_AO (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:214][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.ID01_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:234][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.ID02_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:259][455]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.06-09.39.02:291][455]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha.ID02_alpha (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.02:307][455]LogInterchangeEngine: [Pending] Importing -  (17)
+[2024.11.06-09.39.02:828][457]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID01_Mixed_AO.png]
+[2024.11.06-09.39.02:828][457]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.02:828][457]LogInterchangeEngine: [Pending] Importing -  (16)
+[2024.11.06-09.39.02:828][457]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_Metallic.png]
+[2024.11.06-09.39.02:829][457]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID01_Metallic.png]
+[2024.11.06-09.39.02:829][457]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.02:829][457]LogInterchangeEngine: [Pending] Importing -  (15)
+[2024.11.06-09.39.02:829][457]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_Mixed_AO.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID01_Base_color.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (14)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_Normal_DirectX.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_Base_color.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (13)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID02_Roughness.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID01_Roughness.png]
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: [Pending] Importing -  (12)
+[2024.11.06-09.39.03:022][458]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_alpha.png]
+[2024.11.06-09.39.03:118][461]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.ID01_Normal_DirectX (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 397.562488 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:189][462]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.03:205][462]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.03:226][462]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.ID02_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:247][462]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.03:262][462]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.06-09.39.03:388][464]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_alpha.png]
+[2024.11.06-09.39.03:388][464]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:388][464]LogInterchangeEngine: [Pending] Importing -  (11)
+[2024.11.06-09.39.03:388][464]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_Base_color.png]
+[2024.11.06-09.39.03:427][465]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.ID02_Mixed_AO (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:436][465]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.ID02_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:441][465]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID01_Normal_DirectX.png]
+[2024.11.06-09.39.03:441][465]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:441][465]LogInterchangeEngine: [Pending] Importing -  (10)
+[2024.11.06-09.39.03:441][465]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_Metallic.png]
+[2024.11.06-09.39.03:465][465]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha.ID03_alpha (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:481][465]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_Metallic.png]
+[2024.11.06-09.39.03:481][465]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:481][465]LogInterchangeEngine: [Pending] Importing -  (9)
+[2024.11.06-09.39.03:481][465]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_Mixed_AO.png]
+[2024.11.06-09.39.03:578][466]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.03:586][466]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.03:607][466]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.06-09.39.03:631][466]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.11.06-09.39.03:703][466]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.11.06-09.39.03:722][466]LogRendererCore: Warning: FlushRenderingCommands called recursively! 2 calls on the stack.
+[2024.11.06-09.39.03:725][466]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.06-09.39.03:805][467]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.ID03_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:809][467]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.ID03_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:816][467]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.ID02_Normal_DirectX (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 397.562488 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.03:850][467]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_Roughness.png]
+[2024.11.06-09.39.03:850][467]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:850][467]LogInterchangeEngine: [Pending] Importing -  (8)
+[2024.11.06-09.39.03:851][467]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_Normal_DirectX.png]
+[2024.11.06-09.39.03:851][467]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_Mixed_AO.png]
+[2024.11.06-09.39.03:851][467]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.03:851][467]LogInterchangeEngine: [Pending] Importing -  (7)
+[2024.11.06-09.39.03:851][467]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/julie.danko...-game-ready/textures/ID03_Roughness.png]
+[2024.11.06-09.39.04:124][472]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_Metallic.png]
+[2024.11.06-09.39.04:125][472]LogInterchangeEngine: [Pending] Importing -  (6)
+[2024.11.06-09.39.04:125][472]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_alpha.png]
+[2024.11.06-09.39.04:125][472]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.11.06-09.39.04:155][474]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.ID03_Mixed_AO (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.04:212][475]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID02_Normal_DirectX.png]
+[2024.11.06-09.39.04:212][475]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.06-09.39.04:212][475]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_Base_color.png]
+[2024.11.06-09.39.04:212][475]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.06-09.39.04:227][477]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.06-09.39.04:281][480]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.ID03_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.04:331][482]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_Mixed_AO.png]
+[2024.11.06-09.39.04:331][482]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.06-09.39.04:431][489]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_Roughness.png]
+[2024.11.06-09.39.04:432][489]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.06-09.39.04:470][491]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.06-09.39.04:485][492]LogTexture: Display: Building textures: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.ID03_Normal_DirectX (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 397.562488 MB), EncodeSpeed: Fast
+[2024.11.06-09.39.04:654][495]LogInterchangeEngine: Display: Interchange import completed [C:/Users/julie.danko...-game-ready/textures/ID03_Normal_DirectX.png]
+[2024.11.06-09.39.04:654][495]LogInterchangeEngine: [Success] Import Done
+[2024.11.06-09.39.04:670][495]LogInterchangeEngine: [Success] Import Done
+[2024.11.06-09.39.08:466][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.06-09.39.08:470][605]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P' took 0.012
+[2024.11.06-09.39.08:472][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle] ([1] browsable assets)...
+[2024.11.06-09.39.08:521][605]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle]
+[2024.11.06-09.39.08:522][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle]
+[2024.11.06-09.39.08:573][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Auto2
+[2024.11.06-09.39.08:574][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_Auto28383276C43E592022465AF827DA4BD08.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Auto2.uasset'
+[2024.11.06-09.39.08:575][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn2] ([1] browsable assets)...
+[2024.11.06-09.39.10:487][605]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn2.blinn2]
+[2024.11.06-09.39.10:487][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn2]
+[2024.11.06-09.39.10:489][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn2_Auto2
+[2024.11.06-09.39.10:489][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn2_Auto20C83237E4EC0C91A8FF9569628B82AB1.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn2_Auto2.uasset'
+[2024.11.06-09.39.10:490][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn1] ([1] browsable assets)...
+[2024.11.06-09.39.10:553][605]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn1.blinn1]
+[2024.11.06-09.39.10:553][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn1]
+[2024.11.06-09.39.10:554][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn1_Auto2
+[2024.11.06-09.39.10:554][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn1_Auto2FA0840F446D8810D77C2B096DFD82FF8.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn1_Auto2.uasset'
+[2024.11.06-09.39.10:555][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn3] ([1] browsable assets)...
+[2024.11.06-09.39.10:612][605]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/medieval-knight-sculpture-game-ready/source/blinn3.blinn3]
+[2024.11.06-09.39.10:612][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn3]
+[2024.11.06-09.39.10:614][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn3_Auto2
+[2024.11.06-09.39.10:614][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn3_Auto29EFFEC5A4F2806475177D491552AA335.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/blinn3_Auto2.uasset'
+[2024.11.06-09.39.10:615][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton] ([1] browsable assets)...
+[2024.11.06-09.39.10:625][605]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton.Dwarf_Idle_Skeleton]
+[2024.11.06-09.39.10:625][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton]
+[2024.11.06-09.39.10:627][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton_Auto2
+[2024.11.06-09.39.10:627][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_Skeleton_Auto2412503CE48E5640331CBCC8460B07F64.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton_Auto2.uasset'
+[2024.11.06-09.39.10:627][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset] ([1] browsable assets)...
+[2024.11.06-09.39.10:643][605]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset.Dwarf_Idle_PhysicsAsset]
+[2024.11.06-09.39.10:643][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset]
+[2024.11.06-09.39.10:649][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset_Auto2
+[2024.11.06-09.39.10:649][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_PhysicsAsset_Auto28E8A64CB47E848068F512D934C1E3D02.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset_Auto2.uasset'
+[2024.11.06-09.39.10:650][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com] ([1] browsable assets)...
+[2024.11.06-09.39.10:660][605]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com]
+[2024.11.06-09.39.10:660][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com]
+[2024.11.06-09.39.10:724][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com_Auto2
+[2024.11.06-09.39.10:724][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_Anim_mixamo_com_Auto2384BC3FF432835D25F36FA981CF210AB.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com_Auto2.uasset'
+[2024.11.06-09.39.10:725][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.10:746][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.ID01_Mixed_AO]
+[2024.11.06-09.39.10:746][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO]
+[2024.11.06-09.39.10:752][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO_Auto2
+[2024.11.06-09.39.10:752][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Mixed_AO_Auto2944B426F40BD1A821812EA947A589C51.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO_Auto2.uasset'
+[2024.11.06-09.39.10:753][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha] ([1] browsable assets)...
+[2024.11.06-09.39.10:754][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha.ID02_alpha]
+[2024.11.06-09.39.10:754][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha]
+[2024.11.06-09.39.10:821][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha_Auto2
+[2024.11.06-09.39.10:821][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_alpha_Auto2AEC0639F43D7D3D4EAE062ACD4E3479E.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha_Auto2.uasset'
+[2024.11.06-09.39.10:822][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.10:825][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.ID02_Base_color]
+[2024.11.06-09.39.10:825][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color]
+[2024.11.06-09.39.10:836][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color_Auto2
+[2024.11.06-09.39.10:836][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Base_color_Auto23B349A3349EFC65DE895D684039BB946.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color_Auto2.uasset'
+[2024.11.06-09.39.10:837][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.10:840][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.ID01_Metallic]
+[2024.11.06-09.39.10:840][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic]
+[2024.11.06-09.39.10:843][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic_Auto2
+[2024.11.06-09.39.10:843][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Metallic_Auto26E1DC8D144EEA3D58993CF80A8280AD1.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic_Auto2.uasset'
+[2024.11.06-09.39.10:844][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.10:846][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.ID01_Normal_DirectX]
+[2024.11.06-09.39.10:846][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX]
+[2024.11.06-09.39.10:875][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX_Auto2
+[2024.11.06-09.39.10:875][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Normal_DirectX_Auto2AEC1CA0B4165A7591E4EF594583A0043.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX_Auto2.uasset'
+[2024.11.06-09.39.10:876][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.10:878][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.ID01_Roughness]
+[2024.11.06-09.39.10:878][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness]
+[2024.11.06-09.39.10:883][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness_Auto2
+[2024.11.06-09.39.10:883][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Roughness_Auto278E90C5748BD4BF8AD122290377C8B48.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness_Auto2.uasset'
+[2024.11.06-09.39.10:884][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.10:887][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.ID01_Base_color]
+[2024.11.06-09.39.10:887][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color]
+[2024.11.06-09.39.10:897][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color_Auto2
+[2024.11.06-09.39.10:897][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Base_color_Auto20217BCC9430274C3B59CF89BD1FA152E.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color_Auto2.uasset'
+[2024.11.06-09.39.10:898][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.10:902][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.ID02_Mixed_AO]
+[2024.11.06-09.39.10:902][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO]
+[2024.11.06-09.39.10:906][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO_Auto2
+[2024.11.06-09.39.10:906][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Mixed_AO_Auto2D07B256B4FE2A482B73FF0A1DC5AE623.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO_Auto2.uasset'
+[2024.11.06-09.39.10:907][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.10:909][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.ID02_Metallic]
+[2024.11.06-09.39.10:909][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic]
+[2024.11.06-09.39.10:920][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic_Auto2
+[2024.11.06-09.39.10:920][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Metallic_Auto2FFEF040647246C9FF4783E8F702DFB46.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic_Auto2.uasset'
+[2024.11.06-09.39.10:921][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.10:924][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.ID02_Normal_DirectX]
+[2024.11.06-09.39.10:924][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX]
+[2024.11.06-09.39.10:957][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX_Auto2
+[2024.11.06-09.39.10:957][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Normal_DirectX_Auto207682CCF4D9EA06442DA47B42A58C667.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX_Auto2.uasset'
+[2024.11.06-09.39.10:958][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.10:960][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.ID02_Roughness]
+[2024.11.06-09.39.10:960][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness]
+[2024.11.06-09.39.10:970][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness_Auto2
+[2024.11.06-09.39.10:970][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Roughness_Auto261425BCB4ED4B615C23F4DB5FA5CA224.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness_Auto2.uasset'
+[2024.11.06-09.39.10:971][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha] ([1] browsable assets)...
+[2024.11.06-09.39.10:973][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha.ID03_alpha]
+[2024.11.06-09.39.10:973][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha]
+[2024.11.06-09.39.11:040][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha_Auto2
+[2024.11.06-09.39.11:040][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_alpha_Auto2A4D1EDAF4221D4929EA5238ECD2DED9C.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha_Auto2.uasset'
+[2024.11.06-09.39.11:041][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.11:044][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.ID03_Base_color]
+[2024.11.06-09.39.11:044][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color]
+[2024.11.06-09.39.11:055][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color_Auto2
+[2024.11.06-09.39.11:055][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Base_color_Auto2BF4249774625CE466B4B6AA394F1CBE6.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color_Auto2.uasset'
+[2024.11.06-09.39.11:055][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.11:058][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.ID03_Metallic]
+[2024.11.06-09.39.11:058][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic]
+[2024.11.06-09.39.11:068][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic_Auto2
+[2024.11.06-09.39.11:068][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Metallic_Auto2906E5D3B4235F422DA99D99EA440BC75.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic_Auto2.uasset'
+[2024.11.06-09.39.11:069][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.11:071][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.ID03_Mixed_AO]
+[2024.11.06-09.39.11:071][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO]
+[2024.11.06-09.39.11:075][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO_Auto2
+[2024.11.06-09.39.11:075][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Mixed_AO_Auto29653EF7140E8D8BCBC88399AC6D4E881.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO_Auto2.uasset'
+[2024.11.06-09.39.11:076][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.11:078][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.ID03_Normal_DirectX]
+[2024.11.06-09.39.11:078][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX]
+[2024.11.06-09.39.11:119][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX_Auto2
+[2024.11.06-09.39.11:119][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Normal_DirectX_Auto2ADD7603146DC3F95898D40B3422C3D76.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX_Auto2.uasset'
+[2024.11.06-09.39.11:120][605]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.11:123][605]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.ID03_Roughness]
+[2024.11.06-09.39.11:123][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness]
+[2024.11.06-09.39.11:134][605]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness_Auto2
+[2024.11.06-09.39.11:134][605]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Roughness_Auto28701A09E4AE6C0E325F176AD416C505C.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Autosaves/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness_Auto2.uasset'
+[2024.11.06-09.39.11:135][605]LogFileHelpers: Auto-saving content packages took 2.665
+[2024.11.06-09.39.12:480][635]LogSlate: Window 'Message Log' being destroyed
+[2024.11.06-09.39.12:499][635]LogSlate: Window 'Message Log' being destroyed
+[2024.11.06-09.39.19:674][873]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.19:674][873]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.19:679][873]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_4
+[2024.11.06-09.39.19:686][873]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_4
+[2024.11.06-09.39.23:649][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.06-09.39.23:651][976]LogEditorActor: Deleted 0 Actors (0.011 secs)
+[2024.11.06-09.39.23:670][976]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.23:670][976]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.23:675][976]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_5
+[2024.11.06-09.39.23:681][976]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle as actor: SkeletalMeshActor /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P:PersistentLevel.SkeletalMeshActor_5
+[2024.11.06-09.39.26:502][ 37]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.39.26:502][ 37]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.06-09.39.46:162][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.06-09.39.46:337][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.06-09.39.46:400][487]LogWorldPartition: Can't find class descriptor '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C' for saving '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C'
+[2024.11.06-09.39.46:400][487]LogWorldPartition: Can't find class descriptor '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C' for saving '/Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P_C'
+[2024.11.06-09.39.46:481][487]LogSavePackage: Moving output files for package: /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P
+[2024.11.06-09.39.46:481][487]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/AncientTemple_01_P3F3AF83B4314473EC15BD3A2B0F4151F.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.umap'
+[2024.11.06-09.39.46:499][487]LogFileHelpers: All files are already saved.
+[2024.11.06-09.39.46:504][487]LogFileHelpers: Saving map 'AncientTemple_01_P' took 0.253
+[2024.11.06-09.39.46:532][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 370.882 ms (total: 4.85 sec)
+[2024.11.06-09.39.46:590][487]LogContentValidation: Display: Starting to validate 1 assets
+[2024.11.06-09.39.46:590][487]LogContentValidation: Enabled validators:
+[2024.11.06-09.39.46:590][487]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.06-09.39.46:590][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.06-09.39.46:590][487]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.06-09.39.46:590][487]LogContentValidation: Display: Validating asset /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P.AncientTemple_01_P
+[2024.11.06-09.39.46:594][487]AssetCheck: /Game/AncientTempleRuins/Demo/Maps/AncientTemple_01/AncientTemple_01_P Validating asset
+[2024.11.06-09.39.47:977][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.11.06-09.39.48:005][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.06-09.39.48:090][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle] ([1] browsable assets)...
+[2024.11.06-09.39.48:090][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle]
+[2024.11.06-09.39.48:135][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle
+[2024.11.06-09.39.48:135][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle246422E442AA1F9A0930CD9C29272251.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.uasset'
+[2024.11.06-09.39.48:138][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn2] ([1] browsable assets)...
+[2024.11.06-09.39.48:138][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn2]
+[2024.11.06-09.39.48:139][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/blinn2
+[2024.11.06-09.39.48:139][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn2BF519FED40355DD00577BEB162BD3D82.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/blinn2.uasset'
+[2024.11.06-09.39.48:140][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn1] ([1] browsable assets)...
+[2024.11.06-09.39.48:140][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn1]
+[2024.11.06-09.39.48:142][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/blinn1
+[2024.11.06-09.39.48:142][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn1B87F12E549BAA2BDDBB03CAA23A88521.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/blinn1.uasset'
+[2024.11.06-09.39.48:143][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn3] ([1] browsable assets)...
+[2024.11.06-09.39.48:143][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/blinn3]
+[2024.11.06-09.39.48:145][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/blinn3
+[2024.11.06-09.39.48:145][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/blinn3E45B89CA42CC34BA2514D5BCADF472BF.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/blinn3.uasset'
+[2024.11.06-09.39.48:146][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton] ([1] browsable assets)...
+[2024.11.06-09.39.48:146][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton]
+[2024.11.06-09.39.48:148][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton
+[2024.11.06-09.39.48:148][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_SkeletonC2B719C5427516FCF76CB2AB5A2050BB.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton.uasset'
+[2024.11.06-09.39.48:150][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset] ([1] browsable assets)...
+[2024.11.06-09.39.48:150][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset]
+[2024.11.06-09.39.48:155][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset
+[2024.11.06-09.39.48:155][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_PhysicsAsset881E12A04A7CFC78E655AF9F317F5FFA.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset.uasset'
+[2024.11.06-09.39.48:156][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com] ([1] browsable assets)...
+[2024.11.06-09.39.48:156][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com]
+[2024.11.06-09.39.48:164][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.48:164][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/Dwarf_Idle_Anim_mixamo_com771130F14BACBA6EE19E159518E2C9B5.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.uasset'
+[2024.11.06-09.39.48:166][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.48:166][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO]
+[2024.11.06-09.39.48:211][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO
+[2024.11.06-09.39.48:211][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Mixed_AO501F801A4DB4968413343294C787CB81.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.uasset'
+[2024.11.06-09.39.48:213][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha] ([1] browsable assets)...
+[2024.11.06-09.39.48:213][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha]
+[2024.11.06-09.39.48:435][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha
+[2024.11.06-09.39.48:435][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_alpha2158D5564F12A6F9F1A7118CC448CE68.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha.uasset'
+[2024.11.06-09.39.48:436][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.48:436][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color]
+[2024.11.06-09.39.48:503][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color
+[2024.11.06-09.39.48:503][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Base_colorBA1DC43A4915DE5F0C53319DDE792BC3.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.uasset'
+[2024.11.06-09.39.48:504][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.48:504][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic]
+[2024.11.06-09.39.48:517][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic
+[2024.11.06-09.39.48:517][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_MetallicDE9BB36246767A5CB48D618E77BF228C.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.uasset'
+[2024.11.06-09.39.48:518][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.48:518][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX]
+[2024.11.06-09.39.48:682][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX
+[2024.11.06-09.39.48:682][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Normal_DirectX1834A13A47348EFD0A8E14A1AD39FF7A.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.uasset'
+[2024.11.06-09.39.48:684][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.48:684][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness]
+[2024.11.06-09.39.48:708][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness
+[2024.11.06-09.39.48:708][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_RoughnessF45C89334AC4FDBCC15113A90DB2CE8A.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.uasset'
+[2024.11.06-09.39.48:709][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.48:709][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color]
+[2024.11.06-09.39.48:779][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color
+[2024.11.06-09.39.48:779][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID01_Base_color7A2736B0456AC5E613D490AE7A30AA79.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.uasset'
+[2024.11.06-09.39.48:780][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.48:780][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO]
+[2024.11.06-09.39.48:799][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO
+[2024.11.06-09.39.48:799][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Mixed_AO6E8A7F6D49A8572DDA80D3AADD530417.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.uasset'
+[2024.11.06-09.39.48:800][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.48:800][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic]
+[2024.11.06-09.39.48:865][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic
+[2024.11.06-09.39.48:865][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Metallic3A3AE42B4DA220A80D6BA5979F6D0F29.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.uasset'
+[2024.11.06-09.39.48:866][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.48:866][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX]
+[2024.11.06-09.39.49:027][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX
+[2024.11.06-09.39.49:027][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Normal_DirectX3FB40C314B2B4C74F5B0D8AB4541440E.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.uasset'
+[2024.11.06-09.39.49:028][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.49:028][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness]
+[2024.11.06-09.39.49:094][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness
+[2024.11.06-09.39.49:094][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID02_Roughness29DC5C344DCDE978067233AF929004BF.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.uasset'
+[2024.11.06-09.39.49:095][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha] ([1] browsable assets)...
+[2024.11.06-09.39.49:095][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha]
+[2024.11.06-09.39.49:287][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha
+[2024.11.06-09.39.49:287][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_alphaC3C2CF1746671E1A9C7A5E861AF4073B.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha.uasset'
+[2024.11.06-09.39.49:288][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color] ([1] browsable assets)...
+[2024.11.06-09.39.49:288][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color]
+[2024.11.06-09.39.49:356][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color
+[2024.11.06-09.39.49:356][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Base_colorF425C21D45898BFAEE1D268991548655.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.uasset'
+[2024.11.06-09.39.49:357][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic] ([1] browsable assets)...
+[2024.11.06-09.39.49:357][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic]
+[2024.11.06-09.39.49:406][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic
+[2024.11.06-09.39.49:406][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Metallic92B220E7430B596540D9E68C330F7954.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.uasset'
+[2024.11.06-09.39.49:407][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO] ([1] browsable assets)...
+[2024.11.06-09.39.49:407][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO]
+[2024.11.06-09.39.49:426][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO
+[2024.11.06-09.39.49:426][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Mixed_AO506F987D477CFDC9A02BD1A6D04AB157.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.uasset'
+[2024.11.06-09.39.49:427][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX] ([1] browsable assets)...
+[2024.11.06-09.39.49:427][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX]
+[2024.11.06-09.39.49:593][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX
+[2024.11.06-09.39.49:593][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_Normal_DirectX37D83D7742A96F26733866A08E920BC0.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.uasset'
+[2024.11.06-09.39.49:594][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness] ([1] browsable assets)...
+[2024.11.06-09.39.49:594][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness]
+[2024.11.06-09.39.49:648][520]LogSavePackage: Moving output files for package: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness
+[2024.11.06-09.39.49:648][520]LogSavePackage: Moving 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Saved/ID03_RoughnessC6FDE7384B2095DEA82AF09233D91712.tmp' to 'C:/Users/julie.danko/Documents/GitHub/ADV_CameraStaging_Introdution/AncientTempleRuins/Content/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.uasset'
+[2024.11.06-09.39.49:680][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.67 sec (total: 6.53 sec)
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Starting to validate 24 assets
+[2024.11.06-09.39.49:739][520]LogContentValidation: Enabled validators:
+[2024.11.06-09.39.49:739][520]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.11.06-09.39.49:739][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.11.06-09.39.49:739][520]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle.Dwarf_Idle
+[2024.11.06-09.39.49:739][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle Validating asset
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/blinn2.blinn2
+[2024.11.06-09.39.49:739][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/blinn2 Validating asset
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/blinn1.blinn1
+[2024.11.06-09.39.49:739][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/blinn1 Validating asset
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/blinn3.blinn3
+[2024.11.06-09.39.49:739][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/blinn3 Validating asset
+[2024.11.06-09.39.49:739][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton.Dwarf_Idle_Skeleton
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Skeleton Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset.Dwarf_Idle_PhysicsAsset
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_PhysicsAsset Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com.Dwarf_Idle_Anim_mixamo_com
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/source/Dwarf_Idle_Anim_mixamo_com Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO.ID01_Mixed_AO
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Mixed_AO Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha.ID02_alpha
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_alpha Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color.ID02_Base_color
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Base_color Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic.ID01_Metallic
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Metallic Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX.ID01_Normal_DirectX
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Normal_DirectX Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness.ID01_Roughness
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Roughness Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color.ID01_Base_color
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID01_Base_color Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO.ID02_Mixed_AO
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Mixed_AO Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic.ID02_Metallic
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Metallic Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX.ID02_Normal_DirectX
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Normal_DirectX Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness.ID02_Roughness
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID02_Roughness Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha.ID03_alpha
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_alpha Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color.ID03_Base_color
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Base_color Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic.ID03_Metallic
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Metallic Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO.ID03_Mixed_AO
+[2024.11.06-09.39.49:740][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Mixed_AO Validating asset
+[2024.11.06-09.39.49:740][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX.ID03_Normal_DirectX
+[2024.11.06-09.39.49:741][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Normal_DirectX Validating asset
+[2024.11.06-09.39.49:741][520]LogContentValidation: Display: Validating asset /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness.ID03_Roughness
+[2024.11.06-09.39.49:741][520]AssetCheck: /Game/import/medieval-knight-sculpture-game-ready/textures/ID03_Roughness Validating asset
